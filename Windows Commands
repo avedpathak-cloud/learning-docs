@@ -1,0 +1,250 @@
+1. System Information & Hardware Checks
+View Windows version and system details
+# systeminfo
+
+Check running processes
+#tasklist
+
+End a stuck program
+#taskkill /IM programname.exe /F
+
+Example:
+#taskkill /IM chrome.exe /F
+
+Open Task Manager
+#taskmgr
+
+
+
+2. System File Repair Commands
+Check and repair corrupted Windows system files
+#sfc /scannow
+
+Repair Windows component store
+DISM /Online /Cleanup-Image /RestoreHealth
+
+Recommended order:
+DISM /Online /Cleanup-Image /RestoreHealth
+sfc /scannow
+
+
+
+3. Disk Troubleshooting
+Check disk errors
+chkdsk
+
+Scan and repair disk errors
+chkdsk C: /f /r
+(Requires restart if the drive is in use.)
+
+Check disk space
+wmic logicaldisk get size,freespace,caption
+
+
+
+4. Network Troubleshooting
+View IP address
+ipconfig
+
+Detailed network information
+ipconfig /all
+
+Release and renew IP address
+ipconfig /release
+ipconfig /renew
+
+Clear DNS cache
+ipconfig /flushdns
+
+Test internet connectivity
+ping google.com
+
+Check network route
+tracert google.com
+
+View saved Wi-Fi profiles
+netsh wlan show profiles
+
+Reset network settings
+netsh winsock reset
+
+
+
+5. Windows Services Troubleshooting
+Open Services
+services.msc
+
+Check running services
+net start
+
+Restart a service
+net stop servicename
+net start servicename
+
+Example:
+net stop spooler
+net start spooler
+
+
+
+6. Startup & Boot Repair
+Open System Configuration
+msconfig
+
+Check boot configuration
+bcdedit
+
+Repair boot records (from Recovery Environment)
+bootrec /fixmbr
+bootrec /fixboot
+bootrec /rebuildbcd
+
+
+
+7. User Account Troubleshooting
+View users
+net user
+
+Create a local user
+net user username password /add
+
+View administrator accounts
+net localgroup administrators
+
+
+
+8. Event Logs & Diagnostics
+Open Event Viewer
+eventvwr.msc
+
+Open Reliability Monitor
+perfmon /rel
+
+Open Performance Monitor
+perfmon
+
+
+
+9. Remote & Network Administration
+Check hostname
+hostname
+
+Check active connections
+netstat -ano
+
+Find a process using a port
+netstat -ano | findstr :8080
+
+
+
+10. Quick Run Commands
+Purpose	Command
+Control Panel	control
+
+Device Manager	
+devmgmt.msc
+
+Disk Management	
+diskmgmt.msc
+
+Task Manager	
+taskmgr
+
+Registry Editor	regedit
+Windows Update	
+ms-settings:windowsupdate
+
+Programs & Features	
+appwiz.cpl
+
+System Properties	
+sysdm.cpl
+
+Common troubleshooting sequence
+Check error details:
+eventvwr.msc
+
+Repair system files:
+DISM /Online /Cleanup-Image /RestoreHealth
+sfc /scannow
+
+Check disk:
+chkdsk C: /f
+
+Fix network:
+ipconfig /flushdns
+netsh winsock reset
+Restart the PC.
+
+
+
+1.Open PowerShell as Administrator:
+Install the Windows Update module:
+Install-Module PSWindowsUpdate
+
+Import the module:
+Import-Module PSWindowsUpdate
+
+Check available updates:
+Get-WindowsUpdate
+
+Install all available updates:
+Install-WindowsUpdate -AcceptAll -AutoReboot
+
+
+
+2. Using Windows Update service commands (CMD)
+Restart Windows Update services:
+net stop wuauserv
+net stop bits
+net start bits
+net start wuauserv
+
+
+
+3. Force Windows Update Check
+usoclient StartScan
+
+Start downloading updates:
+usoclient StartDownload
+
+Install updates:
+usoclient StartInstall
+
+Restart after updates:
+shutdown /r /t 0
+
+
+
+4. Repair Windows Update Components
+If Windows Update is stuck:
+
+net stop wuauserv
+net stop bits
+net stop cryptsvc
+net stop msiserver
+
+Rename update cache folders:
+ren C:\Windows\SoftwareDistribution SoftwareDistribution.old
+ren C:\Windows\System32\catroot2 catroot2.old
+
+Start services again:
+net start wuauserv
+net start bits
+net start cryptsvc
+net start msiserver
+
+
+
+5. Check Windows Update Status
+Get-Service wuauserv
+
+View installed updates:
+wmic qfe list
+
+or PowerShell:
+Get-HotFix
+Quick one-line update (PowerShell Admin)
+Install-Module PSWindowsUpdate -Force; Import-Module PSWindowsUpdate; Install-WindowsUpdate -AcceptAll -AutoReboot
+
+
