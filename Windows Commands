@@ -256,6 +256,8 @@ update windows
 #Check Recent Network / Web Activity (DNS Cache)
 #ipconfig /displaydns
 
+battery Report 
+#powercfg /batteryreport
 
 
 
