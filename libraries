@@ -1,0 +1,68 @@
+AI AND MACHINE LEARNING :
+
+------------------------------------------------------------------------
+| Priority | Library                  | Learn it for                   |
+| -------- | ------------------------ | ------------------------------ |
+| 1        | **NumPy**                | Numerical computing, AI/data   |
+| 2        | **Pandas**               | Data analysis                  |
+| 3        | **Requests**             | APIs, HTTP, automation         |
+| 4        | **Pydantic**             | Data validation, APIs, AI apps |
+| 5        | **FastAPI**              | Modern backend/API development |
+| 6        | **PyTorch**              | AI / deep learning             |
+| 7        | **Scikit-learn**         | Traditional machine learning   |
+| 8        | **pytest**               | Testing Python applications    |
+| 9        | **SQLAlchemy**           | Databases/backend              |
+| 10       | **Django**               | Full web applications          |
+| 11       | **Polars**               | Fast data processing           |
+| 12       | **httpx**                | Modern synchronous/async HTTP  |
+| 13       | **OpenAI Python SDK**    | Building AI applications       |
+| 14       | **LangChain**            | LLM/AI application development |
+| 15       | **Matplotlib / Seaborn** | Data visualization             |
+------------------------------------------------------------------------
+
+
+AUTOMATION :
+
+1. DESKTOP APPLICATONS
+----------------------------------------------------------------------------------------------------------
+| Library          | Best for                        | Notes                                             |
+| ---------------- | ------------------------------- | ------------------------------------------------- |
+| **PyAutoGUI**    | Mouse/keyboard automation       | Easy; works by interacting with the screen        |
+| **pywinauto**    | Windows desktop apps            | Excellent for native Windows apps                 |
+| **PyWinAuto**    | Windows UI automation           | Useful for controls, windows, buttons, dialogs    |
+| **pynput**       | Keyboard/mouse control          | Lightweight input automation                      |
+| **Appium**       | Mobile/desktop-style automation | Useful for certain app ecosystems                 |
+| **WinAppDriver** | Windows UI automation           | Older ecosystem; less attractive for new projects |
+----------------------------------------------------------------------------------------------------------
+
+
+2. WEB APPLICATIONS
+--------------------------------------------------------------------------------
+| Library           | Best for                                                 |
+| ----------------- | -------------------------------------------------------- |
+| **Playwright**    | Modern web automation — my first choice                  |
+| **Selenium**      | Browser automation and established test suites           |
+| **PyAutoGUI**     | When you need to automate what is visually on the screen |
+| **BeautifulSoup** | Scraping HTML, not browser interaction                   |
+--------------------------------------------------------------------------------
+
+
+LEARNING STACK
+Python
+│
+├── Web automation
+│   └── Playwright
+│
+├── Windows desktop automation
+│   └── pywinauto
+│
+├── Keyboard / mouse fallback
+│   └── PyAutoGUI
+│
+└── Data/files
+    ├── pandas
+    ├── openpyxl
+    └── pathlib
+
+
+
