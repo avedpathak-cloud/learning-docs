@@ -1,0 +1,28 @@
+
+
+--------------------------------------------------------------------------------------------------------------------
+| Tool                              | Main use                                                                     |
+| --------------------------------- | ---------------------------------------------------------------------------- |
+|NMAP                               | Network scanning, host discovery, and identifying open ports/services        |
+|WIRESHARK                          | Capturing and analyzing network traffic                                      |
+|BURP SUITE                         | Testing web applications for security vulnerabilities                        |
+|METASPLOITE FRAMEWORK              | Security testing and validating known vulnerabilities                        |
+|AIRCRACK_NG                        | Auditing Wi-Fi network security                                              |
+|JOHN THE RIPPER                    | Password-strength auditing and password recovery                             |
+|HASHCAT                            | High-performance password/hash recovery and auditing                         |
+|HYDRA                              | Testing authentication services against weak credentials                     |
+|GOBUSTER                           | Discovering directories, files, and virtual hosts on web servers             |
+|NIKTO                              | Scanning web servers for common security issues                              |
+|SQLMAP                             | Testing for and validating SQL injection vulnerabilities                     |
+|NETCAT NC                          | Network connections, troubleshooting, and security testing                   |
+|PROXYCHAINS                        | Routing supported network connections through proxy chains                   |
+|MALTEGO                            | OSINT and relationship analysis of publicly available information            |
+|THEHARVESTER                       | Gathering publicly available information such as domains and email addresses |
+|RECON-NG                           | Automating reconnaissance and OSINT tasks                                    |
+|SOCIAL ENGINEER TOOLKIT (SET)      | Security awareness and authorized social-engineering testing                 |
+|GHIDRA                             | Reverse engineering and analyzing compiled programs                          |
+|AUTOPSY                            | Digital forensics and examination of disk images                             |
+|VOLATILITY                         | Analyzing memory/RAM dumps for forensic investigations                       |
+|HASH-IDENTIFIERS                   | Identifying the likely type of a password hash                               |
+|SERCHSPLOIT                        | Searching the Exploit Database for publicly documented exploits              |
+--------------------------------------------------------------------------------------------------------------------
