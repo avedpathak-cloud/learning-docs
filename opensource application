@@ -1,4 +1,5 @@
 Category	                                                        Tool	                                                                         Purpose
+
 Infrastructure as Code	                                         Terraform	                                                             Provision cloud infrastructure
 Configuration Management	                                        Ansible	                                                               Automate server and application management
 Configuration Management	                                     Puppet Open Source	                                                         System configuration
@@ -8,35 +9,38 @@ Version Control	                                                    Git	        
 Containerization	                                                 Docker                                                                 Engine	Build and run containers
 Container Orchestration	                                         Kubernetes	                                                             Manage containerized applications
 Kubernetes Package Manager	                                      Helm	                                                                 Kubernetes application deployment
-Monitoring	                                                     Prometheus	                                                                     Metrics collection
-Dashboards	                                                      Grafana	                                                                       Monitoring dashboards
-Logging	                                                         Elasticsearch	                                                                 Store and search logs
-Log Collection	                                                    Fluentd	                                                                        Log aggregation
-Log Collection	                                                    Logstash	                                                                    Process and ship logs
-Log Collection	                                                  Fluent Bit	                                                                  Lightweight log forwarding
-Visualization	                                                      Kibana	                                                                    Visualize logs and metrics
-Network Monitoring	                                                Zabbix	                                                                     Infrastructure monitoring
-Network Monitoring	                                                Nagios                                                                  Core	Server and network monitoring
-Network Monitoring	                                                Icinga	                                                                      Monitoring and alerting
-Security	                                                          Wazuh	                                                                       SIEM and endpoint security
-Vulnerability Scanning	OpenVAS	Scan systems for vulnerabilities
-Network Monitoring	HashiCorp Vault Community	Store secrets securely
-Artifact Repository	Nexus Repository OSS	Store Maven, Docker, npm artifacts
-Artifact Repository	JFrog Artifactory Community	Package repository
-Reverse Proxy	Nginx	Web server and load balancer
-Reverse Proxy	HAProxy	High-performance load balancer
-Database	PostgreSQL	Relational database
-Database	MySQL Community	Relational database
-Database	MariaDB	MySQL-compatible database
-Cache	Redis	In-memory cache and data store
-Messaging	RabbitMQ	Message broker
-Streaming	Apache Kafka	Event streaming platform
-Automation	Rundeck Community	Job scheduling and automation
-Documentation	Wiki.js	Internal documentation
-Documentation	BookStack	Documentation/wiki
-Project Management	Redmine	Issue tracking and project management
-Collaboration	Mattermost	Team chat
-Identity Management	Keycloak	Single Sign-On (SSO) and Identity Provider
-Virtualization	Proxmox VE	Virtual machines and containers
-Backup	UrBackup	Client/server backup
+Monitoring	                                                     Prometheus	                                                                   Metrics collection
+Dashboards	                                                      Grafana	                                                                     Monitoring dashboards
+Logging	                                                         Elasticsearch	                                                               Store and search logs
+Log Collection	                                                    Fluentd	                                                                    Log aggregation
+Log Collection	                                                    Logstash	                                                              Process and ship logs
+Log Collection	                                                  Fluent Bit	                                                            Lightweight log forwarding
+Visualization	                                                      Kibana	                                                              Visualize logs and metrics
+Network Monitoring	                                                Zabbix	                                                              Infrastructure monitoring
+Network Monitoring	                                                Nagios                                                             CoreServer and network monitoring
+Network Monitoring	                                                Icinga	                                                              Monitoring and alerting
+Security	                                                          Wazuh	                                                               SIEM and endpoint security
+Vulnerability Scanning	                                            OpenVAS	                                                           Scan systems for vulnerabilities
+Network Monitoring	                                            HashiCorp Vault                                                        Community	Store secrets securely
+Artifact Repository	                                                Nexus Repository                                                 OSS	Store Maven, Docker, npm artifacts
+Artifact Repository	                                            JFrog Artifactory                                                       Community	Package repository
+Reverse Proxy	                                                      Nginx	                                                              Web server and load balancer
+Reverse Proxy	                                                     HAProxy	                                                            High-performance load balancer
+Database	                                                        PostgreSQL	                                                               Relational database
+Database	                                                      MySQL Community	                                                             Relational database
+Database	                                                          MariaDB	                                                              MySQL-compatible database
+Cache	                                                               Redis	                                                           In-memory cache and data store
+Messaging	                                                          RabbitMQ	                                                                 Message broker
+Streaming	                                                        Apache Kafka	                                                          Event streaming platform
+Automation	                                                    Rundeck Community	                                                      Job scheduling and automation
+Documentation	                                                      Wiki.js	                                                               Internal documentation
+Documentation	                                                      BookStack	                                                               Documentation/wiki
+Project Management	                                                Redmine	                                                          Issue tracking and project management
+Collaboration	                                                     Mattermost	                                                                   Team chat
+Identity Management	                                                Keycloak	                                                      Single Sign-On (SSO) and Identity Provider
+Virtualization	                                                   Proxmox VE	                                                           Virtual machines and containers
+Backup	                                                            UrBackup	                                                                Client/server backup
+
+
+
 https://gist.github.com/ECiurleo/cfdb86f87d79fbbd80f088a46f9606e3
