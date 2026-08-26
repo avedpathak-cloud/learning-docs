@@ -1,1 +1,19 @@
 
+Week	                                         Focus Area	Key AWS Services & Topics                                                                              	          Action Items & Labs
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week 1	         |      IAM & Networking Basics	IAM (Roles, Policies, MFA), KMS, Secrets Manager, VPC (Subnets, Route Tables, IGW)	     |     Set up AWS Free Tier. Build a custom VPC with public and private subnets.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week 2	         |     Advanced Networking & Security	Security Groups vs NACLs, NAT Gateways, VPC Endpoints, AWS Shield, WAF, GuardDuty	 |     Configure VPC Endpoints to access S3 privately without internet routing.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week 3	         |     Compute & High Availability	EC2, AMI, Auto Scaling Groups (ASG), Elastic Load Balancing (ALB/NLB), Route 53      |     Host a web app behind an ALB with ASG across two Availability Zones.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week 4	         |      Storage Architecture	S3 (Classes, Lifecycle Policies), EBS (gp3, io2), EFS, AWS Storage Gateway	               |       Set up S3 Lifecycle rules for archiving to Glacier; mount an EFS volume.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week 5	         |      Databases & Caching	RDS (Multi-AZ, Read Replicas), Aurora, DynamoDB, ElastiCache (Redis/Memcached)	             |     Configure multi-region Aurora Read Replicas; practice DB failover scenarios.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week 6	         |      Decoupling & Event-Driven	SQS, SNS, EventBridge, AWS Lambda, API Gateway, AWS Step Functions	                   |     Build an event-driven system: S3 upload triggers Lambda via EventBridge.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week 7	         |      Management, DR & Cost	CloudWatch, CloudTrail, AWS Organizations, AWS Budgets, DR Strategies                      |     Practice analyzing billing dashboards; set up AWS CloudTrail centralized logging.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week 8	         |      Practice Exams & Weak Spot Review	SAA-C03 practice tests (aim for 85%+), cheat sheet review                      |     Take 3–4 full-length timed mock exams. Review every incorrect answer.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
