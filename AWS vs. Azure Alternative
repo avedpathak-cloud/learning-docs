@@ -1,0 +1,20 @@
+AWS service	Azure alternative
+
+1. EC2 (virtual machines)	             Azure Virtual Machines
+2. S3 (object storage)	               Azure Blob Storage
+3. EBS (block storage)	               Azure Managed Disks
+4. EFS (shared file storage)	         Azure Files
+5. VPC (virtual network)	             Azure Virtual Network (VNet)
+6. Security Groups	                   Network Security Groups (NSGs)
+7. IAM (identity and access)	         Microsoft Entra ID + Azure RBAC
+8. Route 53 (DNS)	                     Azure DNS
+9. Elastic Load Balancing	             Azure Load Balancer / Application Gateway
+10. Auto Scaling	                     Virtual Machine Scale Sets
+11. ECS / EKS (containers)	           Azure Container Apps / AKS
+12. ECR (container registry)	         Azure Container Registry (ACR)
+13. RDS (managed databases)	           Azure SQL Database / Azure Database for PostgreSQL
+14. Lambda (serverless functions)	     Azure Functions
+15. CloudWatch (monitoring)	           Azure Monitor
+16. CloudTrail (audit logs)	           Azure Activity Log
+17. AWS Backup	                       Azure Backup
+18. CloudFormation	                   Azure Resource Manager (ARM) / Bicep
